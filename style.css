@@ -1,0 +1,41 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* nav section  */
+.logo {
+  width: 250px !important;
+}
+.fa-bars {
+  color: transparent !important;
+  background-image: linear-gradient(to right, orange, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-size: 35px !important;
+  font-weight: bolder !important;
+}
+.md-hidden {
+  visibility: hidden !important;
+}
+.sm-hidden {
+  visibility: visible !important;
+}
+.special-nav-bg {
+  background-color: #f4b288 !important;
+  color: white !important;
+}
+
+/* responsive section  */
+@media (max-width: 740px) {
+  /* nav section  */
+  .md-hidden {
+    visibility: visible !important;
+  }
+  .logo {
+    width: 200px !important;
+  }
+  .sm-hidden {
+    visibility: hidden !important;
+  }
+}
