@@ -2,6 +2,10 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+.section-padding {
+  padding: 48px 60px !important;
+  margin: 50px 0 !important;
+}
 /* nav section  */
 .logo {
   width: 250px !important;
@@ -25,6 +29,22 @@ body {
   background-color: #f4b288 !important;
   color: white !important;
 }
+/* banner section  */
+.banner {
+  padding: 50px 0px !important;
+}
+.banner-text-color {
+  color: #ed6939;
+}
+.banner-img1 {
+  width: 340px;
+}
+.banner-img2 {
+  position: absolute;
+  bottom: 240px !important;
+  right: 40px !important;
+  width: 200px !important;
+}
 
 /* responsive section  */
 @media (max-width: 740px) {
@@ -37,5 +57,29 @@ body {
   }
   .sm-hidden {
     visibility: hidden !important;
+  }
+  /* banner section  */
+  .banner {
+    padding: 50px 30px !important;
+  }
+  .banner-img2 {
+    position: absolute;
+    bottom: 200px !important;
+    right: 50px !important;
+    width: 140px !important;
+  }
+  .banner-img1 {
+    width: 250px;
+  }
+}
+@media (min-width: 1440px) {
+  .banner-img1 {
+    width: 340px;
+  }
+  .banner-img2 {
+    position: absolute;
+    bottom: 250px !important;
+    right: 90px !important;
+    width: 200px !important;
   }
 }
