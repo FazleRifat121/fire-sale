@@ -31,7 +31,8 @@ body {
 }
 /* banner section  */
 .banner {
-  padding: 50px 0px !important;
+  padding: 90px 0px !important;
+  height: 100vh !important;
 }
 .banner-text-color {
   color: #ed6939;
@@ -70,6 +71,24 @@ body {
   }
   .banner-img1 {
     width: 250px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1020px) {
+  .md-hidden {
+    visibility: visible !important;
+  }
+  .sm-hidden {
+    visibility: hidden !important;
+  }
+
+  .banner-img1 {
+    width: 300px;
+  }
+  .banner-img2 {
+    position: absolute;
+    bottom: 240px !important;
+    right: -30px !important;
+    width: 180px !important;
   }
 }
 @media (min-width: 1440px) {
