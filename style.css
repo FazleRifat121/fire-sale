@@ -28,6 +28,7 @@ body {
 /* banner section  */
 .banner {
   padding: 90px 0px !important;
+  margin-top: 100px;
 }
 .banner-text-color {
   color: #ed6939;
@@ -47,7 +48,21 @@ body {
 .special-bg {
   background-color: #fceee6;
   width: 100%;
-  filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+/* request an offer  */
+.bg-request {
+  background-color: #ed6939;
+  border: 1px solid #ed6939;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 800px;
+}
+.raf-size {
+  font-size: 50px !important;
 }
 /* responsive section  */
 @media (max-width: 740px) {
@@ -64,6 +79,7 @@ body {
   /* banner section  */
   .banner {
     padding: 50px 30px !important;
+    margin-top: 0px;
   }
   .banner-img2 {
     position: absolute;
@@ -73,6 +89,18 @@ body {
   }
   .banner-img1 {
     width: 250px;
+  }
+  /* how it works section  */
+  .special-bg {
+    width: 95%;
+    filter: drop-shadow(5px 10px 5px rgba(0, 0, 0, 0.5));
+  }
+  /* request an offer  */
+  .bg-request {
+    width: 300px;
+  }
+  .raf-size {
+    font-size: 20px !important;
   }
 }
 @media (min-width: 767px) and (max-width: 1020px) {
