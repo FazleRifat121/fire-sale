@@ -2,10 +2,6 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
-.section-padding {
-  padding: 48px 60px !important;
-  margin: 50px 0 !important;
-}
 /* nav section  */
 .logo {
   width: 250px !important;
@@ -39,14 +35,20 @@ body {
 }
 .banner-img1 {
   width: 340px;
+  filter: drop-shadow(5px 5px 8px #000) !important;
 }
 .banner-img2 {
   position: absolute;
   bottom: 240px !important;
   right: 40px !important;
   width: 200px !important;
+  filter: drop-shadow(5px 5px 8px #000) !important;
 }
-
+/* how it works section  */
+.special-bg {
+  background-color: #fceee6;
+  width: 100%;
+}
 /* responsive section  */
 @media (max-width: 740px) {
   /* nav section  */
