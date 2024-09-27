@@ -120,6 +120,13 @@ body {
     right: -30px !important;
     width: 180px !important;
   }
+  /* request an offer  */
+  .bg-request {
+    width: 600px;
+  }
+  .raf-size {
+    font-size: 50px !important;
+  }
 }
 @media (min-width: 1440px) {
   .banner-img1 {
