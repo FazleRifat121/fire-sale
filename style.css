@@ -59,7 +59,7 @@ body {
   padding: 10px;
   border-radius: 20px;
   cursor: pointer;
-  width: 800px;
+  width: 1000px;
 }
 .raf-size {
   font-size: 50px !important;
@@ -117,7 +117,7 @@ body {
   .banner-img2 {
     position: absolute;
     bottom: 240px !important;
-    right: -30px !important;
+    right: -10px !important;
     width: 180px !important;
   }
   /* request an offer  */
