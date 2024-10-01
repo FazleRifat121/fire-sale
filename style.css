@@ -28,7 +28,7 @@ body {
 /* banner section  */
 .banner {
   padding: 90px 0px !important;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .banner-text-color {
   color: #ed6939;
@@ -43,6 +43,38 @@ body {
   right: 40px !important;
   width: 200px !important;
   filter: drop-shadow(5px 5px 8px #000) !important;
+}
+
+.banner-p-1 {
+  animation: move 5s;
+}
+.banner-p-2 {
+  animation: show 6s;
+}
+@keyframes move {
+  0% {
+    transform: translateY(80px);
+  }
+  50% {
+    transform: translateY(80px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes show {
+  0% {
+    opacity: 0;
+    display: none;
+  }
+  50% {
+    opacity: 0;
+    display: none;
+  }
+  100% {
+    opacity: 1;
+    display: block;
+  }
 }
 /* how it works section  */
 .special-bg {
