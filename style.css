@@ -2,6 +2,14 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+.bold-hr {
+  border-top: 10px solid tomato;
+  border-radius: 10px;
+  width: 100%;
+}
+.or-bg {
+  background-color: #ed6939;
+}
 /* nav section  */
 .logo {
   width: 250px !important;
