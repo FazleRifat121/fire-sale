@@ -4,7 +4,7 @@ window.onload = function () {
   const bannerP1 = document.getElementsByClassName("banner-p-1")[0];
   let i = 0;
   const speed = 20;
-  const text = `Fed up with living out of a suitcase 
+  const text = `Fed up with living  out of a suitcase <br>
                   and waiting endlessly for home repairs?`;
 
   function typeWriter() {
