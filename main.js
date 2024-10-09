@@ -1,3 +1,4 @@
+// type writer animation
 window.onload = function () {
   const bannerP1 = document.getElementById("banner-p-1");
   const bannerP2 = document.getElementById("banner-p-2");
@@ -57,3 +58,13 @@ window.onload = function () {
     }, text1.length * speed); // Adjust delay based on text1 length
   }
 };
+// splide slider
+var splide = new Splide(".splide", {
+  type: "loop",
+  perPage: 4,
+  perMove: 1,
+  autoplay: true,
+  interval: 3000,
+});
+
+splide.mount();
