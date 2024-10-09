@@ -96,6 +96,10 @@ body {
   width: 100%;
   filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
 }
+/* cards  */
+.card-bg {
+  background-color: #f7d2a8;
+}
 /* request an offer  */
 .bg-request {
   background-color: #ed6939;
