@@ -99,6 +99,7 @@ body {
 /* cards  */
 .card-bg {
   background-color: #f7d2a8;
+  height: 18rem;
 }
 /* request an offer  */
 .bg-request {
@@ -186,6 +187,11 @@ body {
     bottom: 240px !important;
     right: -10px !important;
     width: 180px !important;
+  }
+  .card-bg {
+    background-color: #f7d2a8;
+    height: 25rem;
+    width: 10rem;
   }
   /* request an offer  */
   .bg-request {
