@@ -165,6 +165,10 @@ body {
   .raf-size {
     font-size: 20px !important;
   }
+  .card-size {
+    width: 10rem !important;
+    margin-right: 10px !important;
+  }
   /* footer section  */
 
   .footer > div {
@@ -190,6 +194,10 @@ body {
   }
   .card-bg {
     background-color: #f7d2a8;
+    height: 25rem;
+    width: 10rem;
+  }
+  .card-size {
     height: 25rem;
     width: 10rem;
   }
