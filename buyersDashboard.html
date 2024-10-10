@@ -5,10 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Fire sale</title>
     <!-- splide slide  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"
+      integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css"
+      integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <!-- bootstrap cdn  -->
     <link
@@ -140,11 +148,13 @@
         <!-- slider -->
         <section
           id="image-carousel"
-          class="splide container"
+          class="splide"
           aria-label="Beautiful Images"
         >
           <div class="splide__track">
-            <ul class="splide__listJ">
+            <ul class="splide__list">
+              <!-- cards  -->
+              <!-- card 1  -->
               <li class="splide__slide">
                 <div class="card position-relative" style="width: 18rem">
                   <img
@@ -203,6 +213,7 @@
                   </div>
                 </div>
               </li>
+              <!-- card 2 -->
               <li class="splide__slide">
                 <div class="card position-relative" style="width: 18rem">
                   <img
@@ -261,6 +272,66 @@
                   </div>
                 </div>
               </li>
+              <!-- card 3  -->
+              <li class="splide__slide">
+                <div class="card position-relative" style="width: 18rem">
+                  <img
+                    src="assets/buyersDashboard/card-2.jpeg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <i
+                    class="fa-regular fa-heart position-absolute end-0 me-3 pointer fs-2 text-white"
+                  ></i>
+                  <div class="card-body">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="card-title fw-bold">$443,000</div>
+                      <div class="dropdown">
+                        <button
+                          class="btn"
+                          type="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+                        <ul
+                          class="dropdown-menu dropdown-menu-end bg-transparent border-0"
+                        >
+                          <li>
+                            <a
+                              class="dropdown-item special-nav-bg border rounded-top-3 mb-1"
+                              href="index.html"
+                              >Home</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item special-nav-bg mb-1"
+                              href="properties.html"
+                              >Properties</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item special-nav-bg border rounded-bottom-3 mb-1"
+                              href="#"
+                              >FAQ
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <!-- card 4  -->
               <li class="splide__slide">
                 <div class="card position-relative" style="width: 18rem">
                   <img
@@ -323,6 +394,60 @@
           </div>
         </section>
         <!-- cards  -->
+        <!-- <div class="card position-relative" style="width: 18rem">
+          <img
+            src="assets/buyersDashboard/card-2.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <i
+            class="fa-regular fa-heart position-absolute end-0 me-3 pointer fs-2 text-white"
+          ></i>
+          <div class="card-body">
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="card-title fw-bold">$443,000</div>
+              <div class="dropdown">
+                <button
+                  class="btn"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fa-solid fa-ellipsis"></i>
+                </button>
+                <ul
+                  class="dropdown-menu dropdown-menu-end bg-transparent border-0"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item special-nav-bg border rounded-top-3 mb-1"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item special-nav-bg mb-1"
+                      href="properties.html"
+                      >Properties</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item special-nav-bg border rounded-bottom-3 mb-1"
+                      href="#"
+                      >FAQ
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div> -->
       </section>
 
       <!-- request an offer  -->
