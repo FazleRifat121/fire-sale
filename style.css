@@ -101,6 +101,10 @@ body {
   background-color: #f7d2a8;
   height: 18rem;
 }
+.card-size {
+  height: 20rem;
+  width: 20rem;
+}
 /* request an offer  */
 .bg-request {
   background-color: #ed6939;
