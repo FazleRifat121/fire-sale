@@ -98,13 +98,14 @@ body {
 }
 /* cards  */
 .card-bg {
-  background-color: #f7d2a8;
+  background-color: #f7d2a8 !important;
   height: 18rem;
 }
 .card-size {
   height: 20rem;
   width: 20rem;
 }
+
 /* request an offer  */
 .bg-request {
   background-color: #ed6939;
@@ -119,8 +120,13 @@ body {
 .raf-size {
   font-size: 50px !important;
 }
-
+.search {
+  width: 450px;
+  border: 1px solid rgb(215, 207, 207);
+  border-radius: 50px;
+}
 /* footer section  */
+
 .footer {
   margin-top: 20px;
   margin-bottom: 0px;
