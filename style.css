@@ -10,6 +10,9 @@ body {
 .or-bg {
   background-color: #ed6939;
 }
+.nor-bg {
+  background-color: #f7d2a8;
+}
 .montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -39,7 +42,19 @@ body {
   background-color: #f4b288 !important;
   color: white !important;
 }
+/* colum img  */
+.col-img {
+  width: 1200px !important;
+  height: 600px;
+}
+.cols-img {
+  width: 500px;
+  height: 194px;
+}
 /* banner section  */
+.vh {
+  height: 100vh;
+}
 .banner {
   padding: 90px 0px !important;
   margin-top: 50px;
@@ -107,6 +122,21 @@ body {
 }
 
 /* request an offer  */
+.buy {
+  background-color: #ed6939;
+  border: 1px solid #ed6939;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  width: 140px;
+}
+.quest {
+  border: 1px solid #ed6939;
+  padding: 10px;
+  border-radius: 20px;
+
+  width: 140px;
+}
 .bg-request {
   background-color: #ed6939;
   border: 1px solid #ed6939;
@@ -139,6 +169,17 @@ body {
 }
 /* responsive section  */
 @media (max-width: 740px) {
+  /* colum img  */
+  .col-img {
+    width: 100% !important;
+    height: 100%;
+  }
+  .row-w {
+    width: 100% !important;
+  }
+  .cols-img {
+    width: 100%;
+  }
   /* nav section  */
   .md-hidden {
     visibility: visible !important;
